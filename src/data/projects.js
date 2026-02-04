@@ -20,15 +20,15 @@ export const projects = [
     description:
       "A full-stack productivity application with habit tracking, task management, and performance analytics to help users stay consistent and organized.",
     tech: ["React"],
-    live: "#",
-    github: "https://github.com/thedhruvguptawork/Portfolio.git",
+    live: "https://streakly-khaki.vercel.app/",
+    github: "https://github.com/thedhruvguptawork/Streakly.git",
   },
   {
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with React and Framer Motion, focusing on clean UI, smooth animations, and performance-oriented design.",
     tech: ["React", "Framer Motion"],
-    live: "https://streakly-khaki.vercel.app/",
-    github: "https://github.com/thedhruvguptawork/Streakly.git",
+    live: "https://portfolio-one-nu-cwuhzbdqmy.vercel.app/",
+    github: "https://github.com/thedhruvguptawork/Portfolio.git",
   },
 ];
