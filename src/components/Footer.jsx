@@ -5,7 +5,7 @@ function Footer() {
         <p className="footer-name">Dhruv Gupta</p>
 
         <div className="footer-links">
-          <a href="gupta.dhruv.professional@gmail.com">Email - gupta.dhruv.professional@gmail.com</a>
+          <a href="thedhruvguptawork@gmail.com">Email - thedhruvguptawork@gmail.com</a>
           <a href="6388715461">Contact-6388715461</a>
           <a href="https://linkedin.com/in/dhruv-gupta-a73391268/" target="_blank">
             LinkedIn
