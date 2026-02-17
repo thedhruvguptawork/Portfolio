@@ -1,11 +1,14 @@
 function Footer() {
+  function givealert(){
+    alert("Please submit the contact form")
+  }
   return (
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-name">Dhruv Gupta</p>
 
         <div className="footer-links">
-          <a href="thedhruvguptawork@gmail.com">Email - thedhruvguptawork@gmail.com</a>
+          <a onClick={givealert}>Email - thedhruvguptawork@gmail.com</a>
           <a href="6388715461">Contact-6388715461</a>
           <a href="https://linkedin.com/in/dhruv-gupta-a73391268/" target="_blank">
             LinkedIn
