@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import CursorBlob from "./components/CursorBlob";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -9,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    
+      <CursorBlob />
       <Navbar />
       <Hero />
       <About />

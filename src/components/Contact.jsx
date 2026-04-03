@@ -5,6 +5,7 @@ function Contact() {
     <section id="contact">
       <div className="section-container">
         <motion.h1
+          className="text-gradient"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

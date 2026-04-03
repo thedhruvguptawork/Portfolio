@@ -3,8 +3,8 @@ export const projects = [
     title: "HealthTraco",
     description:
       "A MERN-based healthcare data management system that securely stores medical reports and patient health data, allowing retrieval anytime and from anywhere. Designed to improve continuity of care and long-term record management.",
-    tech: ["MongoDB", "Express", "React", "Node.js"],
-    live: "#",
+    tech: ["Node.js", "Express.js", "EJS", "MongoDB Atlas"],
+    live: "https://healthtraco.onrender.com/",
     github: "https://github.com/thedhruvguptawork/Healthtraco.git",
   },
   {
@@ -30,5 +30,13 @@ export const projects = [
     tech: ["React", "Framer Motion"],
     live: "https://portfolio-one-nu-cwuhzbdqmy.vercel.app/",
     github: "https://github.com/thedhruvguptawork/Portfolio.git",
+  },
+  {
+    title: "Event Booking System Backend",
+    description:
+      "Developed a scalable backend system for an event booking platform to manage listings, user registrations, and workflows. Implemented RESTful APIs with secure JWT authentication and optimized MySQL schemas for performance under concurrent loads.",
+    tech: ["Node.js", "Express.js", "MySQL"],
+    live: "#",
+    github: "https://github.com/thedhruvguptawork/Event_Booking_System.git",
   },
 ];

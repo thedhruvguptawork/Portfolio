@@ -13,7 +13,7 @@ function Hero() {
 
                 <span className="hero-badge">Full Stack Developer</span>
 
-                <h1>Hi, I'm Dhruv</h1>
+                <h1 className="text-gradient">Hi, I'm Dhruv</h1>
                 <p>
                     Full Stack Developer focused on building clean, scalable, and
                     user-centric web applications.

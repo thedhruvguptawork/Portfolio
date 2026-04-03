@@ -19,7 +19,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="section-container">
-        <h1>Skills</h1>
+        <h1 className="text-gradient">Skills</h1>
 
         <motion.div
           className="skills-grid"

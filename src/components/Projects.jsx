@@ -16,9 +16,20 @@ const item = {
 };
 
 function Projects() {
+  const handleMouseMove = (e) => {
+    const { currentTarget: target } = e;
+    const rect = target.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+    
+    target.style.setProperty("--mouse-x", `${x}px`);
+    target.style.setProperty("--mouse-y", `${y}px`);
+  };
+
   return (
     <section id="projects">
-      <h1>Projects</h1>
+      <div className="section-container">
+        <h1 className="text-gradient">Projects</h1>
 
       <motion.div
         className="projects-grid"
@@ -32,6 +43,7 @@ function Projects() {
             key={project.title}
             className="project-card"
             variants={item}
+            onMouseMove={handleMouseMove}
           >
             <h3>{project.title}</h3>
             <p>{project.description}</p>
@@ -49,6 +61,7 @@ function Projects() {
           </motion.div>
         ))}
       </motion.div>
+      </div>
     </section>
   );
 }
