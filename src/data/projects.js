@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "ATS Resume Analyser",
+    description:
+      "An AI-powered ATS Resume Analyzer that evaluates resume compatibility with Applicant Tracking Systems. Employs Gemini AI to act as a professional hiring specialist, calculating compatibility scores, identifying missing keywords, and providing detailed structural feedback.",
+    tech: ["React", "Gemini API", "Tailwind CSS", "Vite"],
+    live: "http://resumeanalyser-pi.vercel.app/",
+    github: "https://github.com/thedhruvguptawork/Resume-ATS-Score",
+  },
+  {
     title: "HealthTraco",
     description:
       "A MERN-based healthcare data management system that securely stores medical reports and patient health data, allowing retrieval anytime and from anywhere. Designed to improve continuity of care and long-term record management.",
