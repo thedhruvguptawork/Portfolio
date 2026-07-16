@@ -20,21 +20,21 @@ function Hero() {
                 </p>
 
                 <button
-  onClick={() =>
-    document.getElementById("projects").scrollIntoView({
-      behavior: "smooth",
-    })
-  }
->
-  View Projects
-</button>
+                    onClick={() =>
+                        document.getElementById("projects").scrollIntoView({
+                            behavior: "smooth",
+                        })
+                    }
+                >
+                    View Projects
+                </button>
 
 
 
                 <div className="hero-links">
                     <a href="https://github.com/thedhruvguptawork">GitHub</a>
                     <a href="https://linkedin.com/in/dhruv-gupta-a73391268">LinkedIn</a>
-                    <a href="https://drive.google.com/drive/folders/1NP9JRT6YGeoze24dUCwqiYWsiasRCOP9?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1UQ5ZpWmG_XVHv1ooIdsqTcEgbWancVUY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                         Resume
                     </a>
 
